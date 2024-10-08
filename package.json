@@ -1,0 +1,38 @@
+{
+  "name": "genpass-tsh",
+  "version": "0.0.1",
+  "description": "Generate password cli training project",
+  "main": "index.js",
+	"bin": {
+		"genpass": "index.js"
+	},
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index",
+    "lint": "eslint . --fix"
+  },
+  "type": "module",
+  "keywords": [
+    "generate password",
+    "cli",
+    "password",
+    "training project"
+  ],
+  "author": "Tatyana Shustrova <tanyashustrova@yandex.ru>",
+  "license": "ISC",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/tsh235/genpass-tsh.git"
+	},
+	"bugs": {
+		"url": "https://github.com/tsh235/genpass-tsh/issues"
+	},
+  "devDependencies": {
+    "@types/node": "^22.7.5",
+    "eslint": "^9.12.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "nodemon": "^3.1.7",
+    "prettier": "3.3.3"
+  }
+}
